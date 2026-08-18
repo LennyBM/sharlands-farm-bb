@@ -1,11 +1,11 @@
-import type { SiteConfig, NavLink } from './types';
+import type { SiteConfig, NavLink } from './types.ts';
 
 export const site: SiteConfig = {
   "slug": "sharlands-farm-bb",
   "name": "Sharlands Farm B&B",
   "shortName": "Sharlands Farm B&B",
   "tagline": "A warm working-farm B&B with homemade breakfasts, free-roaming animals and peaceful Cornish countryside near Bude",
-  "intro": "Breakfast is included and is the headline of a stay — cooked to order with homemade breads, croissants, jams and cakes plus farm free-range eggs, across Full English, American, Continental, Vegetarian",
+  "intro": "Breakfast is included and is the headline of a stay — cooked to order with homemade breads, croissants, jams and cakes plus farm free-range eggs, across Full English, American, Continental, Vegetarian and Vegan menus.",
   "type": "Guest House",
   "established": "",
   "siteUrl": "https://sharlands-farm-bb.vercel.app",
@@ -148,7 +148,7 @@ export const site: SiteConfig = {
     "phone": "+44 7503 457276",
     "platform": "Direct booking by phone or email (no online booking system on the official site); also bookable on Booking.com (https://www.booking.com/hotel/gb/sharlands-farm-bed-and-breakfast.html)"
   },
-  "whatsapp": "",
+  "whatsapp": "447503457276",
   "drinks": "Tea and coffee facilities in every room plus an organic tea selection and homemade apple juice. No bar (it is a B&B); the village of Marhamchurch has its own pub a short walk or drive away.",
   "accommodation": {
     "has": true,
@@ -170,7 +170,7 @@ export const site: SiteConfig = {
         "name": "Primrose Room",
         "desc": "Non-smoking double room with built-in wardrobe, chest of drawers and tea/coffee facilities. Towels and hairdryer included. Ensuite with shower.",
         "price": "£95 per night (B&B)",
-        "image": "img-03.jpg"
+        "image": "img-01.jpg"
       }
     ]
   },
@@ -247,36 +247,50 @@ export const site: SiteConfig = {
     "img-00.jpg",
     "img-01.jpg",
     "img-02.jpg",
-    "img-03.jpg",
-    "img-04.jpg",
     "img-05.jpg",
     "img-06.jpg",
     "img-07.jpg",
     "img-08.jpg",
-    "img-09.jpg",
     "img-10.jpg",
-    "img-11.jpg",
     "img-12.jpg",
     "img-13.jpg",
     "img-14.jpg",
-    "img-15.jpg",
-    "img-16.jpg",
     "img-17.jpg",
     "img-18.jpg",
     "img-19.jpg",
     "img-20.jpg",
     "img-21.jpg"
   ],
-  "hero": "img-00.jpg",
+  "hero": "img-08.jpg",
   "featured": [
     "img-01.jpg",
     "img-02.jpg",
-    "img-03.jpg",
-    "img-04.jpg",
     "img-05.jpg",
-    "img-06.jpg"
+    "img-06.jpg",
+    "img-00.jpg",
+    "img-07.jpg"
   ],
   "videoUrls": [],
+  "focal": {
+    "img-00.jpg": "40% 55%",
+    "img-01.jpg": "40% 60%",
+    "img-02.jpg": "50% 65%",
+    "img-05.jpg": "45% 60%",
+    "img-07.jpg": "50% 60%",
+    "img-08.jpg": "50% 60%",
+    "img-12.jpg": "50% 65%",
+    "img-13.jpg": "60% 55%",
+    "img-14.jpg": "50% 65%",
+    "img-17.jpg": "50% 60%",
+    "img-18.jpg": "45% 60%",
+    "img-20.jpg": "35% 55%",
+    "img-21.jpg": "60% 65%"
+  },
+  "design": {
+    "display": "inn",
+    "hero": "split",
+    "order": "locals-led"
+  },
   "theme": {
     "mode": "light",
     "primary": "#5B7A3A",
